@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Testingg" max_length="40" name="x_102040_testgit_testingg" type="collection">
+        <element label="Applied" max_length="32" name="applied" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="name" type="string"/>
+        <index name="index">
+            <element name="applied"/>
+        </index>
+    </element>
+</database>
